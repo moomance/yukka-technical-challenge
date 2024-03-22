@@ -9,7 +9,8 @@ Install the VS Code extension: Angular Language Service
 
 ## Run the application
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1. Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. 
+2. The application will automatically reload if you change any of the source files.
 
 
 ## Code scaffolding
