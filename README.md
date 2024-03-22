@@ -5,6 +5,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 # Install Angular 17.1.3.
 
 Once you have cloned this repository, run `npm install -g @angular/cli`. 
+Install the VS Code extension: Angular Language Service
 
 ## Run the application
 
