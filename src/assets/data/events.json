@@ -1,0 +1,40 @@
+[
+    {
+      "event": "Stock Price Up",
+      "score": "General Risk",
+      "score_value": 7.3,
+      "number_articles": 13894
+    },
+    {
+        "event": "Lawsuit",
+        "score": "General Risk",
+        "score_value": 7.6,
+        "number_articles": 6200
+    },
+    {
+        "event": "Stock Price Down",
+        "score": "ESG",
+        "score_value": 5.7,
+        "number_articles": 19647
+    },
+    {
+        "event": "Production Decrease ",
+        "score": "ESG",
+        "score_value": 8.3,
+        "number_articles": 7470
+      },
+    {
+      "event": "Product Launch",
+      "score": "ESG",
+      "score_value": 3.4,
+      "number_articles": 10394
+    },
+    
+    {
+      "event": "Opening and Reopening of Plant",
+      "score": "General Risk",
+      "score_value": 5.3,
+      "number_articles": 6904
+    }
+  ]
+  
