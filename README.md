@@ -4,13 +4,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 # Install Angular 17.1.3.
 
-Once you have cloned this repository, run `npm install -g @angular/cli`. 
-Install the VS Code extension: Angular Language Service
+1. Once you have cloned this repository, run `npm install -g @angular/cli`. 
+2. Install the VS Code extension: Angular Language Service
 
 ## Run the application
-
-1. Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. 
-2. The application will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 
 ## Code scaffolding
