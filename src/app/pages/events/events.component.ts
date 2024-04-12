@@ -5,23 +5,35 @@ import { NgFor } from '@angular/common';
 @Component({
   selector: 'app-events',
   standalone: true,
-  imports: [], // list of components, directives, and pipes that are used in the template
+  imports: [NgFor], 
   templateUrl: './events.component.html',
   styleUrl: './events.component.scss'
 })
 export class EventsComponent implements OnInit {
 
-   // Component Properties 
-   events: any  = [] // Stores events data 
-   // Use 'this.' to access its properties in methods. example: this.events
-   
-   constructor (private http: HttpClient) {};
-   
-   ngOnInit(): void {
-     // Initialization logic goes here
-   }
- 
-   // method to fetch events data: (path to json file: ('../../../assets/data/events.json'))
-   getEvents () {}
+  events: any  = []
+
+  constructor (private http: HttpClient) {};
+
+  ngOnInit(): void {
+    this.getEvents();
+  }
+
+
+  getEvents () {
+    this.http.get<any[]>('../../../assets/data/events.json').subscribe(data => {
+
+	  console.log(this.events)
+    //here return data 
+  
+    }, error =>  {
+      console.log('could not load, error')
+    })
+
+  }
+
+  // create sorting function here 
+
+  // create filtering function here  
 
 }
